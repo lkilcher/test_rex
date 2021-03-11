@@ -5,13 +5,16 @@ import matplotlib.pyplot as plt
 plt.ion()
 import numpy as np
 
+# This is the data file we are loading (defined below)
 datname = f'west_coast_gg50.csv'
 
 try:
     dat = pd.read_csv(datname, index_col=0)
 
 except FileNotFoundError:
+    # This block of code creates the data file.
 
+    # Modify the lat_lon and 'outname' files to create new datasets.
     lat_lon = (37.541, -123.365) # ~50 miles offshore of the Golden Gate
     outname = 'west_coast_gg50.csv'
     
