@@ -1,0 +1,11 @@
+name: rex-test
+
+channels:
+  - nrel
+
+dependencies:
+  - nrel-rex
+  - matplotlib
+  - pip
+  - pip:
+    - h5pyd
