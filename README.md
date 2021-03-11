@@ -1,3 +1,5 @@
+I use [Anaconda](https://www.anaconda.com/) as my Python installation.
+
 Start by setting up a conda environment (this doesn't work on the NREL network):
 
     conda env create -f environment.yml
